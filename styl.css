@@ -1,0 +1,176 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(210, 230, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 70%;
+    min-height: 100px;
+    max-height: 800px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container > .left-side{
+    background-color: rgb(107, 166, 170);
+    padding: 20px;
+    
+    
+}
+.profile{
+    align-items: center;
+    padding-bottom: 10px;
+}
+.profile-pic > img{
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.profile >h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.profile>h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-info > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-info > ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-info > ul li  .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+}
+.education > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.education > ul li{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal; 
+    
+}
+.education > ul  p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.languages > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.languages > ul li{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.container > .right-side{
+    background-color: rgb(202, 221, 212);
+
+    
+}
+.about > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
+
+}
+.about > p{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 40px;
+    padding: 40px;
+    padding-top: 10px;
+}
+.experience > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
+}
+.experience > ul li{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style-position: inside;
+    
+}
+.skills > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
+}
+.skills > ul li{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style-position: inside;  
+}
+.skills > ul p{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 40px;
+    
+
+}
+
+.projects > .title{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
+}
+.projects > ul li{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style-position: inside;
+}
